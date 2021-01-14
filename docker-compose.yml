@@ -4,6 +4,7 @@ services:
   wikijs:
     build: 
       context: ./wikijs    
+      dockerfile: Dockerfile
       args:
         ANOTATE_URL: /viewer/web/viewer.html
     command: yarn start
