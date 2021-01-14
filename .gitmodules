@@ -1,0 +1,9 @@
+[submodule "wikijs"]
+	path = wikijs
+	url = git@github.com:tgiardina/wikijs.git
+[submodule "hypothesis-client"]
+	path = hypothesis-client
+	url = git@github.com:tgiardina/hypothesis-client.git
+[submodule "hypothesis-pdfjs"]
+	path = hypothesis-pdfjs
+	url = git@github.com:tgiardina/hypothesis-pdfjs.git
