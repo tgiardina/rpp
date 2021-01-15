@@ -5,9 +5,10 @@ services:
     build: 
       context: ./wikijs    
       args:
-        ANOTATE_URL: /viewer/web/viewer.html
+        ANNOTATE_URL: /viewer/web/viewer.html
     command: yarn dev
     environment:
+      ANNOTATE_URL: /viewer/web/viewer.html
       POSTGRES_HOST: wikijs_db
       POSTGRES_PORT: ${POSTGRES_PORT}
       POSTGRES_DB: ${POSTGRES_DB}
