@@ -1,7 +1,7 @@
 .PHONY: help
 help:
-	@echo 'make deploy - Starts a production server.'
-	@echo 'make dev-wiki - Starts a Wiki.js dev server.'	
+	@echo 'make deploy     - Starts a production server.'
+	@echo 'make dev-wiki   - Starts a Wiki.js dev server.'	
 
 .PHONY: deploy
 deploy: 
