@@ -31,3 +31,5 @@ make dev-wiki
 ```
 
 We're still working on automating a dev setup for the annotation client.
+
+All RPP-specific commits are under the `rpp` branch of `wikijs`, `hypothesis-client`, and `hypothesis-pdfjs` repositories. You can find wikijs's documentation [here](https://docs.requarks.io/#developers) and hypothesis's [here](https://h.readthedocs.io/projects/client/en/latest/developers/).
